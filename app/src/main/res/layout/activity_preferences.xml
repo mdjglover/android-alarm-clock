@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="glover.mike.cs6314assignment2.PreferencesActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:id="@+id/frameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clock Frame: "
+                android:textSize="24dp" />
+
+            <Spinner
+                android:id="@+id/frameSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></Spinner>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/frameStyleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frame Style: "
+                android:textSize="24dp" />
+
+            <Spinner
+                android:id="@+id/frameStyleSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></Spinner>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/colourTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frame Colour: "
+                android:textSize="24dp" />
+
+            <Spinner
+                android:id="@+id/frameColourSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></Spinner>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:id="@+id/minMarksTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minute Marks: "
+                android:textSize="24dp" />
+
+            <Spinner
+                android:id="@+id/minMarksSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></Spinner>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/hourMarksTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hour Marks: "
+                android:textSize="24dp" />
+
+            <Spinner
+                android:id="@+id/hourMarksSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></Spinner>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/markColourTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark Colour: "
+                android:textSize="24dp" />
+
+            <Spinner
+                android:id="@+id/markColourSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></Spinner>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:id="@+id/handColourTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hand Colour: "
+                android:textSize="24dp" />
+
+            <Spinner
+                android:id="@+id/handColourSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></Spinner>
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>
